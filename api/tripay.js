@@ -6,6 +6,17 @@ const path = require('path');
 export default async function handler(req, res) {
   const invoicesPath = path.join(process.cwd(), 'public/data/invoices.json');
 
+  // Set CORS headers
+  res.setHeader('Access-Control-Allow-Origin', '*'); // Adjust '*' to your domain for production
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+
+  // Handle preflight request
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
+  }
+
   if (req.method === 'POST') {
     const { product } = req.body;
 
@@ -22,8 +33,8 @@ export default async function handler(req, res) {
       merchant_ref,
       amount,
       customer_name: 'Nama Pelanggan',
-      customer_email: 'emailpelanggan@domain.com',
-      customer_phone: '081234567890',
+      customer_email: 'emailpelanggan@domain.com', // Replace with actual email
+      customer_phone: '081234567890', // Replace with actual phone number
       order_items: [
         {
           sku: product.sku,
@@ -45,6 +56,9 @@ export default async function handler(req, res) {
           'Authorization': `Bearer ${apiKey}`,
           'Content-Type': 'application/json',
         },
+        validateStatus: function (status) {
+          return status < 500; // Handle only server errors
+        }
       });
 
       const invoiceData = response.data.data;
@@ -62,8 +76,8 @@ export default async function handler(req, res) {
         product_id: product.id,
         product_name: product.name,
         tripay_reference: invoiceData.reference,
-        buyer_email: 'emailpelanggan@domain.com',
-        buyer_phone: '081234567890',
+        buyer_email: 'emailpelanggan@domain.com', // Replace with actual email
+        buyer_phone: '081234567890', // Replace with actual phone number
         status: invoiceData.status,
         amount: invoiceData.amount,
         created_at: new Date().toISOString(),

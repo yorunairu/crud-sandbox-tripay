@@ -5,20 +5,9 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Run Dev
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+vercel dev
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+untuk running dev, menggunakan vercel. karena saat npm run dev (local) atau di vercel prod deployment error CORS

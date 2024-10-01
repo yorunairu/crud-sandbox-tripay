@@ -29,6 +29,7 @@
           <p>Whatsapp : <a href="wa.me/6285179918528">Lian / Yulianto Tri</a></p>
           <p>Github : <a href="https://github.com/yorunairu/crud-sandbox-tripay">Yoru Nairu</a></p>
           <p>Email : <a href="yorunairu@gmail.com">yorunairu@gmail.com</a></p>
+          <small>untuk running dev, menggunakan vercel. karena saat npm run dev (local) atau di vercel prod deployment error CORS</small>
         </div>
       </div>
     </div>

@@ -80,6 +80,7 @@ export default {
             });
           }
         } catch (error) {
+          alert(error);
           Swal.close();
           Swal.fire({
             title: 'Error!',
