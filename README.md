@@ -1,4 +1,4 @@
-# crud-tripay
+# crud-sandbox-tripay
 
 ## Project setup
 ```

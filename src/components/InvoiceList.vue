@@ -23,7 +23,11 @@
       <div class="col-md-4">
         <h2>Catatan</h2>
         <div class="custom-content card">
-          <p>Mohon maaf saya menggunakan data json untuk store data agar lebih cepat dan deployable di vercel.</p>
+          <p>
+            Mohon maaf saya menggunakan data json untuk store data agar lebih cepat dan deployable di vercel. Project ini versi simple tanpa styling, delete data, atau memanfaatkan api tripay lain seperti kalkulasi biaya. Kalau ada yang kurang terkait testnya bisa saya tambahkan disini.
+          </p>
+          <p>Whatsapp : <a href="wa.me/6285179918528">Lian / Yulianto Tri</a></p>
+          <p>Github : <a href="wa.me/6285179918528">Lian / Yulianto Tri</a></p>
         </div>
       </div>
     </div>
