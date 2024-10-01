@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "product_id": 2,
+    "product_name": "Samsung Galaxy S22",
+    "tripay_reference": "DEV-T230621795597YYOY",
+    "buyer_email": "emailpelanggan@domain.com",
+    "buyer_phone": "081234567890",
+    "status": "UNPAID",
+    "amount": 134250,
+    "created_at": "2024-10-01T19:25:35.683Z",
+    "raw_response": "{\"reference\":\"DEV-T230621795597YYOY\",\"merchant_ref\":\"GXS22\",\"payment_selection_type\":\"static\",\"payment_method\":\"BRIVA\",\"payment_name\":\"BRI Virtual Account\",\"customer_name\":\"Nama Pelanggan\",\"customer_email\":\"emailpelanggan@domain.com\",\"customer_phone\":\"081234567890\",\"callback_url\":null,\"return_url\":\"https://domainanda.com/redirect\",\"amount\":134250,\"fee_merchant\":0,\"fee_customer\":4250,\"total_fee\":4250,\"amount_received\":130000,\"pay_code\":\"300638462585874\",\"pay_url\":null,\"checkout_url\":\"https://tripay.co.id/checkout/DEV-T230621795597YYOY\",\"status\":\"UNPAID\",\"expired_time\":1727897135,\"order_items\":[{\"sku\":\"P002\",\"name\":\"Samsung Galaxy S22\",\"price\":130000,\"quantity\":1,\"subtotal\":130000,\"product_url\":\"https://tokokamu.com/product/P002\",\"image_url\":\"https://tokokamu.com/product/P002.jpg\"}],\"instructions\":[{\"title\":\"Internet Banking\",\"steps\":[\"Login ke internet banking Bank BRI Anda\",\"Pilih menu <b>Pembayaran</b> lalu klik menu <b>BRIVA</b>\",\"Pilih rekening sumber dan masukkan Kode Bayar (<b>300638462585874</b>) lalu klik <b>Kirim</b>\",\"Detail transaksi akan ditampilkan, pastikan data sudah sesuai\",\"Klik <b>Lanjutkan</b>\",\"Masukkan kata sandi ibanking lalu klik <b>Request</b> untuk mengirim m-PIN ke nomor HP Anda\",\"Periksa HP Anda dan masukkan m-PIN yang diterima lalu klik <b>Kirim</b>\",\"Transaksi sukses, simpan bukti transaksi Anda\"]},{\"title\":\"Aplikasi BRImo\",\"steps\":[\"Login ke aplikasi BRImo Anda\",\"Pilih menu <b>BRIVA</b>\",\"Pilih sumber dana dan masukkan Nomor Pembayaran (<b>300638462585874</b>) lalu klik <b>Lanjut</b>\",\"Klik <b>Lanjut</b>\",\"Detail transaksi akan ditampilkan, pastikan data sudah sesuai\",\"Klik <b>Lanjutkan</b>\",\"Klik <b>Konfirmasi</b>\",\"Klik <b>Lanjut</b>\",\"Masukkan kata sandi ibanking Anda\",\"Klik <b>Lanjut</b>\",\"Transaksi sukses, simpan bukti transaksi Anda\"]},{\"title\":\"ATM BRI\",\"steps\":[\"Lakukan pembayaran melalui ATM Bank BRI\",\"Pilih menu <b>Transaksi Lain > Pembayaran > Lainnya > Pilih BRIVA</b>\",\"Masukkan Nomor VA (<b>300638462585874</b>)\",\"Pilih <b>Ya</b> untuk memproses pembayaran\"]}]}"
+  },
+  {
+    "id": 2,
+    "product_id": 3,
+    "product_name": "Sony WH-1000XM4 Headphones",
+    "tripay_reference": "DEV-T23062179560TTESZ",
+    "buyer_email": "emailpelanggan@domain.com",
+    "buyer_phone": "081234567890",
+    "status": "UNPAID",
+    "amount": 54250,
+    "created_at": "2024-10-01T19:25:40.622Z",
+    "raw_response": "{\"reference\":\"DEV-T23062179560TTESZ\",\"merchant_ref\":\"SNYHP\",\"payment_selection_type\":\"static\",\"payment_method\":\"BRIVA\",\"payment_name\":\"BRI Virtual Account\",\"customer_name\":\"Nama Pelanggan\",\"customer_email\":\"emailpelanggan@domain.com\",\"customer_phone\":\"081234567890\",\"callback_url\":null,\"return_url\":\"https://domainanda.com/redirect\",\"amount\":54250,\"fee_merchant\":0,\"fee_customer\":4250,\"total_fee\":4250,\"amount_received\":50000,\"pay_code\":\"968933075836867\",\"pay_url\":null,\"checkout_url\":\"https://tripay.co.id/checkout/DEV-T23062179560TTESZ\",\"status\":\"UNPAID\",\"expired_time\":1727897140,\"order_items\":[{\"sku\":\"P003\",\"name\":\"Sony WH-1000XM4 Headphones\",\"price\":50000,\"quantity\":1,\"subtotal\":50000,\"product_url\":\"https://tokokamu.com/product/P003\",\"image_url\":\"https://tokokamu.com/product/P003.jpg\"}],\"instructions\":[{\"title\":\"Internet Banking\",\"steps\":[\"Login ke internet banking Bank BRI Anda\",\"Pilih menu <b>Pembayaran</b> lalu klik menu <b>BRIVA</b>\",\"Pilih rekening sumber dan masukkan Kode Bayar (<b>968933075836867</b>) lalu klik <b>Kirim</b>\",\"Detail transaksi akan ditampilkan, pastikan data sudah sesuai\",\"Klik <b>Lanjutkan</b>\",\"Masukkan kata sandi ibanking lalu klik <b>Request</b> untuk mengirim m-PIN ke nomor HP Anda\",\"Periksa HP Anda dan masukkan m-PIN yang diterima lalu klik <b>Kirim</b>\",\"Transaksi sukses, simpan bukti transaksi Anda\"]},{\"title\":\"Aplikasi BRImo\",\"steps\":[\"Login ke aplikasi BRImo Anda\",\"Pilih menu <b>BRIVA</b>\",\"Pilih sumber dana dan masukkan Nomor Pembayaran (<b>968933075836867</b>) lalu klik <b>Lanjut</b>\",\"Klik <b>Lanjut</b>\",\"Detail transaksi akan ditampilkan, pastikan data sudah sesuai\",\"Klik <b>Lanjutkan</b>\",\"Klik <b>Konfirmasi</b>\",\"Klik <b>Lanjut</b>\",\"Masukkan kata sandi ibanking Anda\",\"Klik <b>Lanjut</b>\",\"Transaksi sukses, simpan bukti transaksi Anda\"]},{\"title\":\"ATM BRI\",\"steps\":[\"Lakukan pembayaran melalui ATM Bank BRI\",\"Pilih menu <b>Transaksi Lain > Pembayaran > Lainnya > Pilih BRIVA</b>\",\"Masukkan Nomor VA (<b>968933075836867</b>)\",\"Pilih <b>Ya</b> untuk memproses pembayaran\"]}]}"
+  },
+  {
+    "id": null,
+    "product_id": 4,
+    "product_name": "Dell XPS 13 Laptop",
+    "tripay_reference": "DEV-T23062179561USJNR",
+    "buyer_email": "emailpelanggan@domain.com",
+    "buyer_phone": "081234567890",
+    "status": "UNPAID",
+    "amount": 214250,
+    "created_at": "2024-10-01T19:28:26.285Z",
+    "raw_response": "{\"reference\":\"DEV-T23062179561USJNR\",\"merchant_ref\":\"DELLX13\",\"payment_selection_type\":\"static\",\"payment_method\":\"BRIVA\",\"payment_name\":\"BRI Virtual Account\",\"customer_name\":\"Nama Pelanggan\",\"customer_email\":\"emailpelanggan@domain.com\",\"customer_phone\":\"081234567890\",\"callback_url\":null,\"return_url\":\"https://domainanda.com/redirect\",\"amount\":214250,\"fee_merchant\":0,\"fee_customer\":4250,\"total_fee\":4250,\"amount_received\":210000,\"pay_code\":\"181541737940576\",\"pay_url\":null,\"checkout_url\":\"https://tripay.co.id/checkout/DEV-T23062179561USJNR\",\"status\":\"UNPAID\",\"expired_time\":1727897306,\"order_items\":[{\"sku\":\"P004\",\"name\":\"Dell XPS 13 Laptop\",\"price\":210000,\"quantity\":1,\"subtotal\":210000,\"product_url\":\"https://tokokamu.com/product/P004\",\"image_url\":\"https://tokokamu.com/product/P004.jpg\"}],\"instructions\":[{\"title\":\"Internet Banking\",\"steps\":[\"Login ke internet banking Bank BRI Anda\",\"Pilih menu <b>Pembayaran</b> lalu klik menu <b>BRIVA</b>\",\"Pilih rekening sumber dan masukkan Kode Bayar (<b>181541737940576</b>) lalu klik <b>Kirim</b>\",\"Detail transaksi akan ditampilkan, pastikan data sudah sesuai\",\"Klik <b>Lanjutkan</b>\",\"Masukkan kata sandi ibanking lalu klik <b>Request</b> untuk mengirim m-PIN ke nomor HP Anda\",\"Periksa HP Anda dan masukkan m-PIN yang diterima lalu klik <b>Kirim</b>\",\"Transaksi sukses, simpan bukti transaksi Anda\"]},{\"title\":\"Aplikasi BRImo\",\"steps\":[\"Login ke aplikasi BRImo Anda\",\"Pilih menu <b>BRIVA</b>\",\"Pilih sumber dana dan masukkan Nomor Pembayaran (<b>181541737940576</b>) lalu klik <b>Lanjut</b>\",\"Klik <b>Lanjut</b>\",\"Detail transaksi akan ditampilkan, pastikan data sudah sesuai\",\"Klik <b>Lanjutkan</b>\",\"Klik <b>Konfirmasi</b>\",\"Klik <b>Lanjut</b>\",\"Masukkan kata sandi ibanking Anda\",\"Klik <b>Lanjut</b>\",\"Transaksi sukses, simpan bukti transaksi Anda\"]},{\"title\":\"ATM BRI\",\"steps\":[\"Lakukan pembayaran melalui ATM Bank BRI\",\"Pilih menu <b>Transaksi Lain > Pembayaran > Lainnya > Pilih BRIVA</b>\",\"Masukkan Nomor VA (<b>181541737940576</b>)\",\"Pilih <b>Ya</b> untuk memproses pembayaran\"]}]}"
+  }
+]

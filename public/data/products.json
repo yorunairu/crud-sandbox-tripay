@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "sku": "P001",
+      "name": "Apple iPhone 14",
+      "price": 150000,
+      "reference": "IP14",
+      "image": "https://place-hold.it/400x200"
+    },
+    {
+      "id": 2,
+      "sku": "P002",
+      "name": "Samsung Galaxy S22",
+      "price": 130000,
+      "reference": "GXS22",
+      "image": "https://place-hold.it/400x200"
+    },
+    {
+      "id": 3,
+      "sku": "P003",
+      "name": "Sony WH-1000XM4 Headphones",
+      "price": 50000,
+      "reference": "SNYHP",
+      "image": "https://place-hold.it/400x200"
+    },
+    {
+      "id": 4,
+      "sku": "P004",
+      "name": "Dell XPS 13 Laptop",
+      "price": 210000,
+      "reference": "DELLX13",
+      "image": "https://place-hold.it/400x200"
+    },
+    {
+      "id": 5,
+      "sku": "P005",
+      "name": "Nike Air Max 270",
+      "price": 25000,
+      "reference": "NIKEAM270",
+      "image": "https://place-hold.it/400x200"
+    }
+  ]
+  
